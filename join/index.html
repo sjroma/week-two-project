@@ -4,6 +4,7 @@
   <title></title>
 </head>
   <body>
+    
     <nav>
       <ul class="nav-row">
         <li class="nav-item">
@@ -20,36 +21,59 @@
         </li>
       </ul>
     </nav>
-   
-Join Film Club
-
-profile picture
-Choose File
-
-name
-
-email address
-
-password
-
-confirm password
-
-Which genres are you interested in?
-action
-adventure
-comedy
-drama
-fantasy
-historical
-horror
-mystery
-romance
-science fiction
-western
-
-Additional input
-
-Join Film Club
+    
+    <div>
+      <form>
+        <fieldset>
+        <legend>Join Film Club</legend>
+        <div class="file_container">
+          <label for="profile_picture">profile picture</label>
+          <select name="p_picture" id="p_picture">
+            <option value="no_file_chosen">No file chosen</option>
+          </select>
+        </div>
+        <div class="name">
+          <label for="name">name</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="email">
+          <label for="email">email address</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="passwd">
+          <label for="password">password</label>
+          <input type="password" name="password" id="password">
+        <div class="confirm">
+          <label for="password">confirm password</label>
+          <input type="password" name="password" id="password">
+        </div>
+        </div>
+        <div class="movie_genres">
+          <label for="which_genre">Which genres are you interested in?</label>
+          <br>
+          <input type="checkbox" name="type" value="genre">action<br>
+          <input type="checkbox" name="type" value="genre">adventure<br>
+          <input type="checkbox" name="type" value="genre">comedy<br>
+          <input type="checkbox" name="type" value="genre">drama<br>
+          <input type="checkbox" name="type" value="genre">fantasy<br>
+          <input type="checkbox" name="type" value="genre">historical<br>
+          <input type="checkbox" name="type" value="genre">horror<br>
+          <input type="checkbox" name="type" value="genre">mystery<br>
+          <input type="checkbox" name="type" value="genre">romance<br>
+          <input type="checkbox" name="type" value="genre">science fiction<br>
+          <input type="checkbox" name="type" value="genre">western<br>
+        </div>
+        <div class="addl_input">
+          <label for="addl_input">Additional input</label>
+          <br>
+          <textarea name="addl_input" id="addl_input" cols="50" rows="3"></textarea>
+        </div>
+        <div class="submit_container">
+          <input type="submit" id="submit_button" value="Join Film Club">
+        </div>
+      </fieldset>
+      </form>
+    </div>
     
     <footer>
       <ul class="nav-row">
@@ -67,5 +91,6 @@ Join Film Club
         </li>
       </ul>
     </footer>
+    
   </body>
 </html>

@@ -28,13 +28,28 @@ copyright text: #FFFFFF
 }
 
 .nav-row {
+  height: 115px;
+/*  background-color: #F5005B;*/
+  list-style-type: none;
+  text-decoration: none;
   display: flex;
+  justify-content: flex-start;
 }
 
 .nav-item {
   height: 115px;
+  width: 115px;
 }
 
 #logo {
-  background: #F5005B;
+  background-color: #F5005B;
+  height: 115px;
+  width: 115px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+li a {
+/*  color: #FFF;*/
+  height: 17px;
 }

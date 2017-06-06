@@ -29,61 +29,54 @@ copyright text: #FFFFFF
 
 .nav-row {
   height: 115px;
-/*  background-color: #F5005B;*/
+  background-color: #7DDFE8;
   list-style-type: none;
-  text-decoration: none;
   display: flex;
   justify-content: flex-start;
   border: 1px solid red;
-
 }
 
 .nav-item_home {
   height: 115px;
   width: 115px;
   background-color: #00A5BF;
-  border: 1px solid black;
+  /*  border: 1px solid black;*/
 }
 
 .nav-item_cal {
   height: 115px;
   width: 115px;
   background-color: #00B7D3;
-  border: 1px solid black;
+/*  border: 1px solid black;*/
 }
 
 .nav-item_join {
   height: 115px;
   width: 115px;
   background-color: #00D5E7;
-  border: 1px solid black;
+/*  border: 1px solid black;*/
 }
 
 .nav-item_copywrite {
   height: 115px;
-  width: 115px;
-  background-color: #7DDFE8;
-  border: 1px solid black;
+  width: 135px;
+/*  border: 1px solid black;*/
 }
-
-/*
-.nav-item {
-  height: 115px;
-  width: 115px;
-  border: 1px solid black;
-}
-*/
 
 #logo {
   background-color: #F5005B;
   height: 115px;
   width: 115px;
+/*
   display: flex;
   justify-content: flex-start;
-  border: 1px solid green;
+*/
+/*  border: 1px solid green;*/
 }
 
 li a {
   color: #FFF;
-  height: 17px;
+  font-size: 17px;
+  text-decoration: none;
+  text-align: center;
 }

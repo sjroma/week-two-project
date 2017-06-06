@@ -49,23 +49,37 @@ copyright text: #FFFFFF
   height: 115px;
   width: 115px;
   background-color: #00A5BF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav-item_cal {
   height: 115px;
   width: 115px;
   background-color: #00B7D3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav-item_join {
   height: 115px;
   width: 115px;
   background-color: #00D5E7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav-item_copywrite {
   height: 115px;
   width: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  border: 1px solid black;
 }
 
 #logo {
@@ -107,4 +121,8 @@ li a {
   background-color: #0B1942;
   color: #FFF;
 /*  border: 1px solid red;*/
+}
+
+.upcoming {
+  border: 1px solid red;
 }

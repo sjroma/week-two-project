@@ -43,50 +43,68 @@ copyright text: #FFFFFF
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
-  border: 1px solid red;
 }
 
 .nav-item_home {
   height: 115px;
   width: 115px;
   background-color: #00A5BF;
-  /*  border: 1px solid black;*/
 }
 
 .nav-item_cal {
   height: 115px;
   width: 115px;
   background-color: #00B7D3;
-/*  border: 1px solid black;*/
 }
 
 .nav-item_join {
   height: 115px;
   width: 115px;
   background-color: #00D5E7;
-/*  border: 1px solid black;*/
 }
 
 .nav-item_copywrite {
   height: 115px;
   width: 135px;
-/*  border: 1px solid black;*/
 }
 
 #logo {
   background-color: #F5005B;
   height: 115px;
   width: 115px;
-/*
-  display: flex;
-  justify-content: flex-start;
-*/
-/*  border: 1px solid green;*/
 }
+
+/*
+this does not do anything
+img {
+  height: 90px;
+  width: 90px;
+}
+*/
 
 li a {
   color: #FFF;
   font-size: 17px;
   text-decoration: none;
   text-align: center;
+}
+
+.page-header {
+  display: flex;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  width: 30%;
+  border: 1px solid red;
+}
+
+.sub-heading {
+  background-color: #0B1942;
+  color: #FFF;
+/*  border: 1px solid red;*/
 }

@@ -129,5 +129,32 @@ li a {
 }
 
 .upcoming {
-/*  border: 1px solid red;*/
+  display: flex;
+  background-color: #0B1942;
+}
+
+h1 {
+  color: #E2E2E2;
+}
+
+.featured {
+  display: flex;
+  height: 50%;
+  background-color: #E2E2E2;
+}
+
+.movie_1 {
+  display: flex;
+}
+
+.coming_attractions {
+  background-color: #E2E2E2;
+}
+
+.paired_1 {
+  display: flex;
+}
+
+.paired_2 {
+  display: flex;
 }

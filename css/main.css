@@ -16,6 +16,11 @@ calendar background and treatments: #0B1942
 calendar highlighted day: #F5005B
 button background: #F5005B
 copyright text: #FFFFFF
+
+breakpoint range	breakpoint range start	breakpoint range end
+small	            0 (320px)	            544px
+medium	            545px	                768px
+large	            769px	                + and up
 */
 
 * {

@@ -84,7 +84,7 @@ large	            769px	                + and up
   flex-direction: column;
   justify-content: center;
   align-content: flex-end;
-/*  border: 1px solid black;*/
+  border: 1px solid black; /* need to remove and set copywrite to far right */
 }
 
 #logo {
@@ -93,13 +93,11 @@ large	            769px	                + and up
   width: 115px;
 }
 
-/*
-this does not do anything
+/*this does not do anything...why?*/
 img {
-  height: 90px;
-  width: 90px;
+  height: 90%;
+  width: 90%;
 }
-*/
 
 li a {
   color: #FFF;
@@ -119,6 +117,7 @@ h1 {
 .details {
   display: flex;
   justify-content: space-around;
+  height: 15em;
 }
 
 .item {
@@ -134,31 +133,93 @@ h1 {
 
 .upcoming {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   background-color: #0B1942;
 }
 
-h1 {
-  color: #0B1942;
+h2 {
+  color: #FFF;
+  width: 100%;
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.featured img {
+  width: 45%;
+  height: 55%;
 }
 
 .featured {
   display: flex;
+  flex-direction: row;
   height: 50%;
+  width: 45%;
+  padding: 2%;
   background-color: #E2E2E2;
 }
 
-.movie_1 {
-  display: flex;
+.words_featured {
+  padding-left: 15%;
+  text-align: center;
+}
+
+h3 {
+  border-bottom: .055em solid #000;
+}
+
+.featured ul {
+  width: 25%;
+  text-align: right;
+  list-style: circle;
 }
 
 .coming_attractions {
   background-color: #E2E2E2;
 }
 
-.paired_1 {
+.paired_1, .paired_2 {
   display: flex;
+  width: 55%;
 }
 
-.paired_2 {
+.paired_3, .paired_4 {
   display: flex;
+  width: 55%;
+}
+
+.movie_1 {
+/*  display: flex;*/
+}
+
+.cal_container {
+}
+
+.cal_header {
+}
+
+.cal_month {
+  height: 2em;
+  background-color: #0B1942;
+  color: #FFF;
+}
+
+.month_container {
+}
+
+.cal_week_1, .cal_week_2, .cal_week_3, .cal_week_4, .cal_week_5 {
+  display: flex;
+  border: 1px solid #0B1942;
+}
+
+.cal-wht {
+  width: 100vw;
+  height: 115px;
+  color: #0B1942;
+}
+
+#profile_pic {
+  height: 30%;
+  width: 30%;
+  border-radius: 10em;
 }

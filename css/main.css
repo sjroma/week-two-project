@@ -84,7 +84,7 @@ large	            769px	                + and up
   flex-direction: column;
   justify-content: center;
   align-content: flex-end;
-  border: 1px solid black;
+/*  border: 1px solid black;*/
 }
 
 #logo {
@@ -112,6 +112,10 @@ li a {
   display: flex;
 }
 
+h1 {
+  color: #0B1942;
+}
+
 .details {
   display: flex;
   justify-content: space-around;
@@ -134,7 +138,7 @@ li a {
 }
 
 h1 {
-  color: #E2E2E2;
+  color: #0B1942;
 }
 
 .featured {

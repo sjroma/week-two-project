@@ -37,6 +37,10 @@ large	            769px	                + and up
   box-sizing: border-box;
 }
 
+main {
+  display: flex;
+}
+
 .grid-container {
   width: 100%;
   max-width: 1200px;
@@ -78,13 +82,12 @@ large	            769px	                + and up
 }
 
 .nav-item_copywrite {
-  height: 115px;
-  width: 135px;
+  align-content: flex-end;
   display: flex;
   flex-direction: column;
+  height: 115px;
   justify-content: center;
-  align-content: flex-end;
-  border: 1px solid black; /* need to remove and set copywrite to far right */
+  width: 135px;
 }
 
 #logo {
@@ -122,13 +125,12 @@ h1 {
 
 .item {
   width: 30%;
-  border: 1px solid red;
+/*  border: 1px solid red;*/
 }
 
 .sub-heading {
   background-color: #0B1942;
   color: #FFF;
-/*  border: 1px solid red;*/
 }
 
 .upcoming {
@@ -180,7 +182,7 @@ h3 {
 
 .paired_1, .paired_2 {
   display: flex;
-  width: 55%;
+  width: 45vw;
 }
 
 .paired_3, .paired_4 {

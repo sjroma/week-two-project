@@ -62,10 +62,11 @@ Your objective is to develop a responsive website according to the following spe
 ## Step 4: Styling your website
 * Use CSS to style the website according to the provided layouts in the project-layout folder.
 * Within the project-layout there are three sub-folders: small, medium, and large. Each folder's layouts 
-correspond to one of the following breakpoint ranges:
+correspond to one of the following breakpoint ranges:  
+
 | breakpoint range | breakpoint range start | breakpoint range end |
 | ---------------- | ---------------------- | -------------------- |
-|    small	       |       0 (320px)	      |        544px         |
+|    small	        |       0 (320px)	       |        544px         |
 |    medium        |       545px            |        768px         |
 |    large         |       769px            |        + and up      |
 
